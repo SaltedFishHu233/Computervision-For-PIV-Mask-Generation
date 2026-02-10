@@ -1,0 +1,175 @@
+\documentclass[12pt]{report}
+
+% --------------------
+% Packages
+% --------------------
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+% --------------------
+% Spacing
+% --------------------
+\onehalfspacing
+
+% --------------------
+% Chapter formatting
+% --------------------
+\titleformat{\chapter}
+  {\normalfont\bfseries\Large}
+  {\thechapter}
+  {1em}
+  {}
+
+% --------------------
+% Document
+% --------------------
+\begin{document}
+
+% ====================Thesis Title
+% Title Page
+% ====================
+\begin{titlepage}
+\centering
+\vspace*{1in}
+
+{\Large \textbf{Using Computer Vision for PIV Analysis}}\\[1.5in]
+
+{\large MIE498Y: Research Thesis}\\[0.5in]
+
+\textbf{Han Hu}\\
+1008797553\\[1in]
+
+Supervisor: Prof. Pierre E. Sullivan\\[1in]
+
+Date
+
+\vfill
+\end{titlepage}
+
+% ====================
+% Front Matter
+% ====================
+\pagenumbering{roman}
+
+% --------------------
+% Abstract (not listed in ToC)
+% --------------------
+\chapter*{Abstract}
+The abstract is generally 100 to 200 words, single-spaced in block form, placed in the centre of a separate page.
+
+\newpage
+
+% --------------------
+% Acknowledgements
+% --------------------
+\chapter*{Acknowledgements}
+Acknowledgements (to persons and/or supporting agencies).
+
+\newpage
+
+% --------------------
+% Table of Contents
+% --------------------
+\tableofcontents
+\newpage
+
+% --------------------
+% List of Symbols
+% --------------------
+\chapter*{List of Symbols}
+
+\begin{tabular}{ll}
+Symbol & Definition \\
+\hline
+$A$ & Example symbol \\
+$B$ & Example definition \\
+\end{tabular}
+
+\newpage
+
+% --------------------
+% List of Figures
+% --------------------
+\listoffigures
+\newpage
+
+% --------------------
+% List of Tables
+% --------------------
+\listoftables
+\newpage
+
+% ====================
+% Main Thesis
+% ====================
+\pagenumbering{arabic}
+
+\chapter{Introduction}
+Particle Imagery Velocimetry (PIV) is a flow visualization technique that measures the instantaneous 
+velocity of the fluid flow by calculating the displacement of laser illuminated particles in two different 
+images taken. Upon adequate post processing, planar velocity fields can be obtained from raw data of the 
+experiment. The use of laser in the experiment resulted in measurement errors near object boundaries 
+due to the reflection from the object. To resolve this issue, masks are created to exclude certain 
+areas from the solve. Traditionally, manual masking is performed by researchers to define zones of 
+exclusion. However, such method is impractical for measurement of moving objects as the experiment 
+usually uses high speed camera and has a significant amount of data needing labeling. Some automated 
+masking procedures are developed to help with these scenario. One of them involves fitting predetermined 
+polynomial to the PIV data as the output mask. However this method requires preexisting knowledge about 
+the motion and shape of the object measured, which would be impractical in some cases.
+
+Computer vision has been proposed as a measure for mask generation in PIV experiments. The proposed algorithm 
+uses the Segment Anything Model developed by Meta AI capable of zero-shot generalization, to create masks 
+around bounding points determined by the Grounding-Dino model, capable of identifying location of objects 
+using natural language input. This inherently simplifies the workflow of the masking procedure and provides 
+alternative measure to masking objects in motion in PIV experiments. 
+
+This paper analyzes the aforementioned computer vision algorithm used in PIV experiment by adapting 
+it to a python based PIV solver. The output from the modified solver will then be validated against 
+manual masking and polynomial fitting to obtain the final conclusion regarding the feasibility of using 
+computer vision for PIV experiments.
+
+\chapter{Literature Review}
+
+
+\chapter{Methodology}
+Describe how the work was conducted.
+\section{Programming Environment Setup}
+\section{Code Preparation}
+\section{Validation}
+\subsection{Particle Disparity}
+\subsection{Correlation Statistics}
+
+\chapter{Results}
+Present results and findings.
+
+\chapter{Discussion}
+Interpretation and discussion of results.
+
+\chapter{Conclusions}
+Summary of findings and conclusions.
+
+% ====================
+% References
+% ====================
+\chapter*{References}
+\addcontentsline{toc}{chapter}{References}
+
+% ====================
+% Appendices
+% ====================
+\appendix
+
+\chapter{Appendix A}
+Begin each appendix on a separate page and label each as Appendix A, Appendix B, etc.
+
+\chapter{Appendix B}
+Additional material.
+
+\end{document}
