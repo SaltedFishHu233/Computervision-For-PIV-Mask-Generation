@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1765990639.92075 "/home/leo/MIE498Test/FullCycle/Thesis/FinalThesis.tex" "FinalThesis.pdf" "FinalThesis" 1765990640.3793 0
+["pdflatex"] 1772671301.11291 "/home/leo/MIE498Naturized/FullCycle/Thesis/FinalThesis.tex" "FinalThesis.pdf" "FinalThesis" 1772671301.99022 0
   "/etc/texmf/web2c/texmf.cnf" 1764706994.05523 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/leo/MIE498Test/FullCycle/Thesis/FinalThesis.tex" 1765990639.33295 4752 146741c48f2d53a90ceca28b24fb64bc ""
+  "/home/leo/MIE498Naturized/FullCycle/Thesis/FinalThesis.tex" 1772671300.95532 10928 557c68e99d67a51b75c185595a5cb762 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -85,12 +85,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1764707959.27881 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1764708044 8213809 9577201e75730629713f27dacb83f413 ""
-  "FinalThesis.aux" 1765990640.31596 2350 0cebef9807f22b40f9e0ba33dfd4bb6a "pdflatex"
-  "FinalThesis.lof" 1765990640.31723 160 3d779cc98b6f299ec43eb90ebb04f45f "pdflatex"
-  "FinalThesis.lot" 1765990640.31723 160 3d779cc98b6f299ec43eb90ebb04f45f "pdflatex"
-  "FinalThesis.out" 1765990640.31596 1668 e4716e05fdbcffd011bc336465d28cf0 "pdflatex"
-  "FinalThesis.tex" 1765990639.33295 4752 146741c48f2d53a90ceca28b24fb64bc ""
-  "FinalThesis.toc" 1765990640.31723 1005 41f3c041c4489a4f1532e540307b2aa3 "pdflatex"
+  "Figures/SAMDemo.png" 1772658265.85959 3423712 5ab5e2e27a236e654ddb409d31415806 ""
+  "FinalThesis.aux" 1772671301.95147 4230 909fb9a3cbd417283eb842adee2f9d3c "pdflatex"
+  "FinalThesis.lof" 1772671301.95153 306 06f705cf7a0f0848fc1373c665c4c12d "pdflatex"
+  "FinalThesis.lot" 1772671301.95153 160 3d779cc98b6f299ec43eb90ebb04f45f "pdflatex"
+  "FinalThesis.out" 1772671301.95153 3853 362ee66cde1f2d79746b0e97df6ca45c "pdflatex"
+  "FinalThesis.tex" 1772671300.95532 10928 557c68e99d67a51b75c185595a5cb762 ""
+  "FinalThesis.toc" 1772671301.95153 2021 87d10b18f9435d1a4c34307eb6d09144 "pdflatex"
   (generated)
   "FinalThesis.aux"
   "FinalThesis.lof"

@@ -70,7 +70,7 @@ def RepeatingSect(infoin,groundingdino_model,sam_model):
         return 0
 
 
-def NoteBookSAM(infoin,groundingdino_model,sam_model):
+def NoteBookSAM(infoin,groundingdino_model,sam_model,text_prompt):
     #Log ImportantInfo
     current_dir = os.getcwd()
     parent_dir = os.path.dirname(current_dir)
@@ -87,7 +87,6 @@ def NoteBookSAM(infoin,groundingdino_model,sam_model):
 
 
     ###### Change the text prompt here ######
-    text_prompt = 'White Particle on Black Background'
     print("Text input:", text_prompt)
     input_path=os.path.join(current_dir, "input")
     output_path=os.path.join(current_dir, "output")

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.2)  17 DEC 2025 11:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.12.2)  4 MAR 2026 19:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/leo/MIE498Test/FullCycle/Thesis/FinalThesis.tex
-(/home/leo/MIE498Test/FullCycle/Thesis/FinalThesis.tex
+**/home/leo/MIE498Naturized/FullCycle/Thesis/FinalThesis.tex
+(/home/leo/MIE498Naturized/FullCycle/Thesis/FinalThesis.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -334,24 +334,24 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (./FinalThesis.aux)
 \openout1 = `FinalThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -409,7 +409,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring OFF on input line 32.
  (./FinalThesis.out) (./FinalThesis.out)
 \@outlinefile=\write3
 \openout3 = `FinalThesis.out'.
@@ -428,58 +428,64 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [3])
 \tf@toc=\write4
 \openout4 = `FinalThesis.toc'.
 
- [3] [4
+ [4] [5
 
 ] (./FinalThesis.lof)
 \tf@lof=\write5
 \openout5 = `FinalThesis.lof'.
 
- [5] (./FinalThesis.lot)
+ [6] (./FinalThesis.lot)
 \tf@lot=\write6
 \openout6 = `FinalThesis.lot'.
 
- [6]
+ [7]
 Chapter 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.138 \chapter
-              {Literature Review} [1
+l.134 
+       [1
 
-]
+] [2]
 Chapter 2.
-[2
-
-]
-Chapter 3.
 [3
+
+] [4]
+<./Figures/SAMDemo.png, id=194, 4620.26125pt x 2059.695pt>
+File: ./Figures/SAMDemo.png Graphic file (type png)
+<use ./Figures/SAMDemo.png>
+Package pdftex.def Info: ./Figures/SAMDemo.png  used on input line 192.
+(pdftex.def)             Requested size: 352.31625pt x 157.04758pt.
+ [5 <./Figures/SAMDemo.png>] [6]
+Chapter 3.
+[7
 
 ]
 Chapter 4.
-[4
-
-]
-Chapter 5.
-[5
-
-]
-Chapter 6.
-[6
-
-] [7
-
-]
-Appendix A.
 [8
 
 ]
-Appendix B.
+Chapter 5.
 [9
+
+]
+Chapter 6.
+[10
+
+] [11
+
+]
+Appendix A.
+[12
+
+]
+Appendix B.
+[13
 
 ] (./FinalThesis.aux)
  ***********
@@ -487,21 +493,21 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `FinalThesis.out' has not changed.
-(rerunfilecheck)             Checksum: E4716E05FDBCFFD011BC336465D28CF0;1668.
+(rerunfilecheck)             Checksum: 362EE66CDE1F2D79746B0E97DF6CA45C;3853.
  ) 
 Here is how much of TeX's memory you used:
- 12085 strings out of 474222
- 187839 string characters out of 5748733
- 1928975 words of memory out of 5000000
- 34167 multiletter control sequences out of 15000+600000
+ 12131 strings out of 474222
+ 188579 string characters out of 5748733
+ 1930975 words of memory out of 5000000
+ 34195 multiletter control sequences out of 15000+600000
  564838 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,291b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,499b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on FinalThesis.pdf (16 pages, 56007 bytes).
+Output written on FinalThesis.pdf (21 pages, 3831484 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 230 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

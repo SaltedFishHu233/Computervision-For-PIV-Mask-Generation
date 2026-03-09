@@ -1,9 +1,9 @@
-PWD /home/leo/MIE498Test/FullCycle/Thesis
+PWD /home/leo/MIE498Naturized/FullCycle/Thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/leo/MIE498Test/FullCycle/Thesis/FinalThesis.tex
+INPUT /home/leo/MIE498Naturized/FullCycle/Thesis/FinalThesis.tex
 OUTPUT FinalThesis.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -177,6 +177,11 @@ INPUT ./FinalThesis.lot
 INPUT ./FinalThesis.lot
 INPUT FinalThesis.lot
 OUTPUT FinalThesis.lot
+INPUT ./Figures/SAMDemo.png
+INPUT ./Figures/SAMDemo.png
+INPUT ./Figures/SAMDemo.png
+INPUT ./Figures/SAMDemo.png
+INPUT ./Figures/SAMDemo.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT FinalThesis.aux
 INPUT ./FinalThesis.out
